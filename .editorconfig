@@ -1,0 +1,17 @@
+root = true
+
+# All files
+[*]
+indent_style = space
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+
+# kotlin
+[*.{kt,kts}]
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8indent_size = 4
+disabled_rules=no-wildcard-imports
